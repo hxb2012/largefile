@@ -1,0 +1,11 @@
+#+TITLE: largefile
+
+打开大文件时跳过 ~insert-file-contents~
+
+* 安装
+
+可以从[[https://github.com/hxb2012/melpa/][我的美尔巴]]安装 ~largefile~
+
+类似 ~auto-mode-alist~ ，需要把mode加到 ~largefile-mode-alist~
+
+用 ~M-x largefile-mode~ 打开
