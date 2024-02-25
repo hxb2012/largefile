@@ -43,7 +43,7 @@
          (buf (create-file-buffer filename))
          error)
     (with-current-buffer buf
-      (setq buffer-file-name filename)
+      (setq buffer-file-name (expand-file-name filename))
       (set-buffer-multibyte t)
       (condition-case error
           (let ((inhibit-read-only t))
